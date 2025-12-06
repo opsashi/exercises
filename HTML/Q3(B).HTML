@@ -1,0 +1,25 @@
+<!-- WRITE A HTML PROGRAM TO DEVELOP STATIC HOME PAGE USING FRAMES. -->
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Static Home Page</title>
+</head>
+<frameset cols="25%, 75%">
+    <frame src="menu.html" name="leftFrame">
+    <frame src="welcome.html" name="rightFrame">
+</frameset>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+</head>
+<body bgcolor="lightgray">
+    <h3>Menu</h3>
+    <ul>
+        <li><a href="welcome.html" target="rightFrame">Home</a></li>
+        <li><a href="about.html" target="rightFrame">About</a></li>
+        <li><a href="contact.html" target="rightFrame">Contact</a></li>
+    </ul>
+</body>
+</html>
